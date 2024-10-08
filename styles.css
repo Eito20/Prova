@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a1d0ff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0077ff;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    text-align: left; /* Alinha o texto à esquerda */
+    max-width: 1000px; /* Limita a largura da seção */
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px; /* Adiciona um espaço acima da imagem */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #252525;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{   
+color: #f3f3f3; 
+}
+
+.flex-container {
+    display: contents;
+    justify-content: space-between; /* Coloca o texto à esquerda e a imagem à direita */
+    margin: 30px ; /* Espaço entre as seções */
+}
+
+.text-container {
+    max-width: 120%; /* Limita a largura do texto */
+}
+
+.flex-container {
+    display: contents;
+    justify-content: flex-start; /* Alinha o texto à esquerda */
+    margin: 30px 0; /* Espaçamento entre as seções */
+}
+
+.text-container {
+    max-width: 600px; /* Limita a largura do texto */
+    margin-right: 20px; /* Espaçamento à direita do texto */
+}
+
+#imagens {
+    margin-top: 30px; /* Espaço acima das imagens */
+}
+
+#imagens img {
+    width: 600px; /* Largura das imagens */
+    height: auto; /* Mantém a proporção */
+    margin: 10px; /* Espaço entre as imagens */
+}
+
